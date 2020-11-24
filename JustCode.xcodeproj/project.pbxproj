@@ -31,6 +31,10 @@
 		18CAF93019C934A000EA7B5A /* tab_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CAF92C19C934A000EA7B5A /* tab_3.png */; };
 		335E9A93256C024600FD4954 /* TestOc.m in Sources */ = {isa = PBXBuildFile; fileRef = 335E9A92256C024600FD4954 /* TestOc.m */; };
 		335E9A9A256C069C00FD4954 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335E9A99256C069C00FD4954 /* MyViewController.m */; };
+		33B071BD256CAA6300434C94 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B071BB256CAA6300434C94 /* TestTableViewController.m */; };
+		33B071BE256CAA6300434C94 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B071BC256CAA6300434C94 /* TestTableViewController.xib */; };
+		33B071C2256CB81E00434C94 /* TestMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B071C0256CB81E00434C94 /* TestMyViewController.m */; };
+		33B071C3256CB81E00434C94 /* TestMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B071C1256CB81E00434C94 /* TestMyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,12 @@
 		335E9A92256C024600FD4954 /* TestOc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOc.m; sourceTree = "<group>"; };
 		335E9A98256C069C00FD4954 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		335E9A99256C069C00FD4954 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		33B071BA256CAA6300434C94 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		33B071BB256CAA6300434C94 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		33B071BC256CAA6300434C94 /* TestTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
+		33B071BF256CB81E00434C94 /* TestMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyViewController.h; sourceTree = "<group>"; };
+		33B071C0256CB81E00434C94 /* TestMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMyViewController.m; sourceTree = "<group>"; };
+		33B071C1256CB81E00434C94 /* TestMyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestMyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +154,7 @@
 		18CAF8F119C922B500EA7B5A /* JustCode */ = {
 			isa = PBXGroup;
 			children = (
+				33B071B9256CAA2E00434C94 /* tableview */,
 				335E9A97256C032A00FD4954 /* my */,
 				18CAF8FA19C922B500EA7B5A /* AppDelegate.h */,
 				18CAF8FB19C922B500EA7B5A /* AppDelegate.m */,
@@ -208,8 +219,21 @@
 			children = (
 				335E9A98256C069C00FD4954 /* MyViewController.h */,
 				335E9A99256C069C00FD4954 /* MyViewController.m */,
+				33B071BF256CB81E00434C94 /* TestMyViewController.h */,
+				33B071C0256CB81E00434C94 /* TestMyViewController.m */,
+				33B071C1256CB81E00434C94 /* TestMyViewController.xib */,
 			);
 			path = my;
+			sourceTree = "<group>";
+		};
+		33B071B9256CAA2E00434C94 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				33B071BA256CAA6300434C94 /* TestTableViewController.h */,
+				33B071BB256CAA6300434C94 /* TestTableViewController.m */,
+				33B071BC256CAA6300434C94 /* TestTableViewController.xib */,
+			);
+			path = tableview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +316,9 @@
 				18CAF92F19C934A000EA7B5A /* tab_2.png in Resources */,
 				18CAF8FE19C922B500EA7B5A /* Images.xcassets in Resources */,
 				18CAF92D19C934A000EA7B5A /* tab_0.png in Resources */,
+				33B071BE256CAA6300434C94 /* TestTableViewController.xib in Resources */,
 				18CAF92E19C934A000EA7B5A /* tab_1.png in Resources */,
+				33B071C3256CB81E00434C94 /* TestMyViewController.xib in Resources */,
 				18CAF93019C934A000EA7B5A /* tab_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,12 +341,14 @@
 				18CAF92219C9231F00EA7B5A /* SecondViewController.m in Sources */,
 				18CAF8FC19C922B500EA7B5A /* AppDelegate.m in Sources */,
 				18CAF92519C9232F00EA7B5A /* ThirdViewController.m in Sources */,
+				33B071BD256CAA6300434C94 /* TestTableViewController.m in Sources */,
 				18CAF91C19C922EE00EA7B5A /* MainViewController.m in Sources */,
 				335E9A9A256C069C00FD4954 /* MyViewController.m in Sources */,
 				18CAF92819C9234D00EA7B5A /* FourlViewController.m in Sources */,
 				18CAF8F819C922B500EA7B5A /* main.m in Sources */,
 				335E9A93256C024600FD4954 /* TestOc.m in Sources */,
 				18B87D1E19C93E6F00377745 /* TestViewController.m in Sources */,
+				33B071C2256CB81E00434C94 /* TestMyViewController.m in Sources */,
 				18CAF91F19C9230D00EA7B5A /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

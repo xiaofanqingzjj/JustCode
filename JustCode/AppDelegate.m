@@ -10,6 +10,8 @@
 #import "MainViewController.h"
 
 #import "MyViewController.h"
+#import "TestTableViewController.h"
+
 
 @implementation AppDelegate
 
@@ -27,13 +29,16 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     // 给Window设置了一个ViewController
-    MainViewController * mainview=[[MainViewController alloc] init];
-    self.window.rootViewController=mainview;
+//    MainViewController * mainview=[[MainViewController alloc] init];
+//    self.window.rootViewController=mainview;
     
 //    // add my viewControlelr
 //    MyViewController * myViewController = [[MyViewController alloc] init];
 //    self.window.rootViewController = myViewController;
     
+    TestTableViewController * tableViewController = [[TestTableViewController alloc] init];
+   
+    self.window.rootViewController = tableViewController;
     
     
     [self.window makeKeyAndVisible];
