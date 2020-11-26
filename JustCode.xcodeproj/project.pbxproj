@@ -35,6 +35,7 @@
 		33B071BE256CAA6300434C94 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B071BC256CAA6300434C94 /* TestTableViewController.xib */; };
 		33B071C2256CB81E00434C94 /* TestMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B071C0256CB81E00434C94 /* TestMyViewController.m */; };
 		33B071C3256CB81E00434C94 /* TestMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B071C1256CB81E00434C94 /* TestMyViewController.xib */; };
+		33C65648257014D800B6419D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 33C65647257014D800B6419D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		33B071BF256CB81E00434C94 /* TestMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyViewController.h; sourceTree = "<group>"; };
 		33B071C0256CB81E00434C94 /* TestMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMyViewController.m; sourceTree = "<group>"; };
 		33B071C1256CB81E00434C94 /* TestMyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestMyViewController.xib; sourceTree = "<group>"; };
+		33C65647257014D800B6419D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		18CAF8DF19C922B500EA7B5A = {
 			isa = PBXGroup;
 			children = (
+				33C65647257014D800B6419D /* .gitignore */,
 				335E9A90256C021B00FD4954 /* test */,
 				18CAF92919C934A000EA7B5A /* tab_0.png */,
 				18CAF92A19C934A000EA7B5A /* tab_1.png */,
@@ -319,6 +322,7 @@
 				33B071BE256CAA6300434C94 /* TestTableViewController.xib in Resources */,
 				18CAF92E19C934A000EA7B5A /* tab_1.png in Resources */,
 				33B071C3256CB81E00434C94 /* TestMyViewController.xib in Resources */,
+				33C65648257014D800B6419D /* .gitignore in Resources */,
 				18CAF93019C934A000EA7B5A /* tab_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
